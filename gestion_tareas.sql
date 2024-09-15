@@ -7,3 +7,8 @@ CREATE TABLE tareas (
     descripcion TEXT NOT NULL,
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+INSERT INTO tareas (titulo, descripcion) VALUES 
+('Ingresar compras', 'Ingresar en el sistema las compras realizadas'),
+('Actualizar base de datos', 'Revisar y agregar nuevos cambios a la base de datos'),
+('Inventariar', 'Hacer inventario de los productos en stock');
